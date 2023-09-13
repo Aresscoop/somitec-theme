@@ -1,0 +1,172 @@
+title = "Contacto"
+layout = "default"
+url = "/contacto"
+==
+
+<!-- Hero Start -->
+<section class="bg-half-170 bg-light d-table w-100" style="background-image: url('{{ 'assets/images/principal/fondo-contacto.png' | theme }}')">
+    <!-- <div class="bg-overlay"></div> -->
+    <div class="container">
+        <div class="row mt-5 justify-content-center">
+            <div class="col-lg-12 text-center">
+                <div class="pages-heading">
+                    <h1 class="title mb-0" style="color: white;">Contacto</h1>
+                </div>
+            </div>  <!--end col-->
+        </div><!--end row-->
+        
+        <div class="position-breadcrumb">
+            <nav aria-label="breadcrumb" class="d-inline-block">
+                <ul class="breadcrumb rounded shadow mb-0 px-4 py-2">
+                    <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+                </ul>
+            </nav>
+        </div>
+    </div> <!--end container-->
+</section><!--end section-->
+<!-- Hero End -->
+
+<!-- Shape Start -->
+<!-- <div class="position-relative">
+    <div class="shape overflow-hidden text-color-white">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+        </svg>
+    </div>
+</div> -->
+<!--Shape End-->
+
+<!-- Start Contact -->
+<section class="section pb-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card border-0 text-center features feature-primary feature-clean">
+                    <div class="icons text-center mx-auto">
+                        <i class="uil uil-phone rounded h3 mb-0"></i>
+                    </div>
+                    <div class="content mt-4">
+                        <h2 class="fw-bold" style="font-size: 20px;">Teléfono</h2>
+                        <p class="text-muted">Si quieres ponerte en contacto con nosotros lo puedes hacer desde los siguientes teléfonos.</p>
+                        <a href="tel:+34678446937" class="read-more">678 446 937 </a> |
+                        <a href="tel:+34960192645" class="read-more"> 96 019 26 45</a>
+                    </div>
+                </div>
+            </div><!--end col-->
+            
+            <div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                <div class="card border-0 text-center features feature-primary feature-clean">
+                    <div class="icons text-center mx-auto">
+                        <i class="uil uil-envelope rounded h3 mb-0"></i>
+                    </div>
+                    <div class="content mt-4">
+                        <h2 class="fw-bold" style="font-size: 20px;">Email</h2>
+                        <p class="text-muted">Si prefieres mandarnos un correo electrónico lo puedes hacer desde la siguiente dirección.</p>
+                        <a href="mailto:contact@example.com" class="read-more">gerencia@solmitec.es</a>
+                    </div>
+                </div>
+            </div><!--end col-->
+            
+            <div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                <div class="card border-0 text-center features feature-primary feature-clean">
+                    <div class="icons text-center mx-auto">
+                        <i class="uil uil-map-marker rounded h3 mb-0"></i>
+                    </div>
+                    <div class="content mt-4">
+                        <h2 class="fw-bold" style="font-size: 20px;">Dirección</h2>
+                        <p class="text-muted">C/ Senda de les AnimesPoligono Ind, 112<br> 46470 Catarroja (Valencia)</p>
+                        <a href="https://goo.gl/maps/QDVe3oYwto9a7yeRA" target="_blank">Ver en Google Maps</a>
+                    </div>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+
+    <div class="container mt-100 mt-60">
+        <div class="row align-items-center">
+            <div class="col-lg-5 col-md-6 pt-2 pt-sm-0 order-2 order-md-1">
+                <div class="card shadow rounded border-0">
+                    <div class="card-body py-5">
+                        <h4 class="card-title">Contáctanos!</h4>
+                        <div class="custom-form mt-3">
+                            <form method="post" name="myForm" id="myForm" onsubmit="return validateForm()">
+                                <p id="error-msg" class="mb-0"></p>
+                                <div id="simple-msg"></div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">Tu Nombre <span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="user" class="fea icon-sm icons"></i>
+                                                <input name="name" id="name" type="text" class="form-control ps-5" placeholder="Nombre:">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">Tu Email <span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="mail" class="fea icon-sm icons"></i>
+                                                <input name="email" id="email" type="email" class="form-control ps-5" placeholder="Email:">
+                                            </div>
+                                        </div> 
+                                    </div><!--end col-->
+
+                                    <div class="col-12">
+                                        <div class="mb-3">
+                                            <label class="form-label">Motivo del Mensaje</label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="book" class="fea icon-sm icons"></i>
+                                                <input name="subject" id="subject" class="form-control ps-5" placeholder="Motivo:">
+                                            </div>
+                                        </div>
+                                    </div><!--end col-->
+
+                                    <div class="col-12">
+                                        <div class="mb-3">
+                                            <label class="form-label">Mensaje <span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="message-circle" class="fea icon-sm icons clearfix"></i>
+                                                <textarea name="comments" id="comments" rows="4" class="form-control ps-5" placeholder="Escribir mensaje..."></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="d-grid">
+                                            <button type="submit" id="submit" name="send" class="btn btn-primary">Envíar Mensaje</button>
+                                        </div>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </form>
+                        </div><!--end custom-form-->
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-lg-7 col-md-6 order-1 order-md-2">
+                <div class="card border-0">
+                    <div class="card-body p-0">
+                        <img src="{{ '/assets/images/principal/contacto.png' | theme}}" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+
+    <div class="container-fluid mt-100 mt-60">
+        <div class="row">
+            <div class="col-12 p-0">
+                <div class="card map border-0">
+                    <div class="card-body p-0">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3083.0766514832544!2d-0.3985446881034322!3d39.3997718715029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604c21a853071b%3A0x4b49a2c7bb9526a6!2sC.%20Senda%20de%20les%20Animes%20Poligono%20Ind%2C%20112%2C%2046470%20Catarroja%2C%20Valencia!5e0!3m2!1ses!2ses!4v1693919900837!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- End contact -->

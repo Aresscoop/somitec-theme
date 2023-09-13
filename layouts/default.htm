@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Solmitec</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Especialistas en Autoconsumo Industrial">
+        <meta name="keywords" content="Especialistas en Autoconsumo Industrial">
+        <meta name="author" content="Aress">
+        <meta name="email" content="estrategicos@aress.es">
+        <meta name="website" content="https://aress.es">
+        <meta name="Version" content="v4.7.0">
+
+        <!-- favicon -->
+        <link rel="shortcut icon" href="{{ 'assets/images/logo-c.png' | theme}}">
+        
+        <!-- Css -->
+        <link href="{{ 'assets/libs/tiny-slider/tiny-slider.css' | theme}}" rel="stylesheet">
+        <link href="{{ 'assets/libs/tobii/css/tobii.min.css' | theme}}" rel="stylesheet">
+        <!-- Bootstrap Css -->
+        <link href="{{ 'assets/css/bootstrap.min.css' | theme}}" id="bootstrap-style" class="theme-opt" rel="stylesheet" type="text/css">
+        <!-- Icons Css -->
+        <link href="{{ 'assets/libs/@mdi/font/css/materialdesignicons.min.css' | theme}}" rel="stylesheet" type="text/css">
+        <link href="{{ 'assets/libs/@iconscout/unicons/css/line.css' | theme}}" type="text/css" rel="stylesheet">
+        <!-- Style Css-->
+        <link href="{{ 'assets/css/style.min.css' | theme}}" id="color-opt" class="theme-opt" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div>
+            {% partial "header" %}
+
+            {% page %}
+
+            {% partial "footer" %}
+        </div>
+
+        <!-- Wishlist Popup Start -->
+        <div class="modal fade" id="wishlist" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content rounded shadow-lg border-0 overflow-hidden">
+                    <div class="modal-body py-5">
+                        <div class="text-center">
+                            <div class="icon d-flex align-items-center justify-content-center bg-soft-danger rounded-circle mx-auto"
+                                style="height: 95px; width:95px;">
+                                <h1 class="mb-0"><i class="uil uil-heart-break align-middle"></i></h1>
+                            </div>
+                            <div class="mt-4">
+                                <h4>Your wishlist is empty.</h4>
+                                <p class="text-muted">Create your first wishlist request...</p>
+                                <div class="mt-4">
+                                    <a href="javascript:void(0)" class="btn btn-outline-primary">+ Create new wishlist</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Wishlist Popup End -->
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+
+        <!-- Javascript -->
+        <!-- JAVASCRIPT -->
+        <script src="{{ 'assets/libs/bootstrap/js/bootstrap.bundle.min.js' | theme}}"></script>
+        <!-- SLIDER -->
+        <script src="{{ 'assets/libs/tiny-slider/min/tiny-slider.js' | theme}}"></script>
+        <!-- Lightbox -->
+        <script src="{{ 'assets/libs/tobii/js/tobii.min.js' | theme}}"></script>
+        <!-- Main Js -->
+        <script src="{{ 'assets/libs/feather-icons/feather.min.js' | theme}}"></script>
+        <script src="{{ 'assets/js/plugins.init.js' | theme}}"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="{{ 'assets/js/app.js' | theme}}"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
+</html>
