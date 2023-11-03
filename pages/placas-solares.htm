@@ -64,7 +64,78 @@ url = "/placas-solares"
                     <p class="text-muted" style="font-size: 18px;">La <span class="text-primary">energía solar</span> es uno de los principales tipos de energía renovable. Ayuda a impulsar economías más limpias que protejan el medio ambiente, mejoren el bienestar de las personas y garanticen la sostenibilidad de las empresas.</p>
                     <p class="text-muted" style="font-size: 18px;">Los avances tecnológicos han transformado la <span class="text-primary">energía solar</span> en una de las más eficientes y económicas del sector de las renovables. Así pues, esta fuente inagotable de energía además de contribuir a la sostenibilidad del planeta atrae la inversión, genera empleo y aumenta la competitividad de las empresas.</p>
                     <p class="text-muted" style="font-size: 18px;">En Solmitec tenemos muy presente que la responsabilidad hacia nuestro planeta y el medio ambiente es un objetivo prioritario, y por ello apostamos por la <span class="text-primary">energía solar</span>, la energía del futuro.</p>
-                    <a href="/contacto" class="btn btn-primary mt-3">Contáctanos!</a>
+                    <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#login-popup" class="btn btn-primary m-1">Contáctanos!</a>
+                    
+                    <!-- Login Form Start -->
+                    <div class="modal fade" id="login-popup" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog  modal-lg modal-dialog-centered">
+                            <div class="modal-content rounded shadow border-0">
+                                <div class="modal-body p-0">
+                                    <div class="container-fluid px-0">
+                                        <div class="row align-items-center g-0">
+                                            <div class="col-lg-6 col-md-5">
+                                                <img src="{{ 'assets/images/principal/form.png' | theme}}" class="img-fluid" alt="">
+                                            </div><!--end col-->
+
+                                            <div class="col-lg-6 col-md-7">
+                                                <form class="login-form p-4">
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="mb-3">
+                                                                <label class="form-label">Tu Nombre <span class="text-danger">*</span></label>
+                                                                <div class="form-icon position-relative">
+                                                                    <i data-feather="user" class="fea icon-sm icons"></i>
+                                                                    <input name="name" id="name" type="text" class="form-control ps-5" placeholder="Nombre">
+                                                                </div>
+                                                            </div>
+                                                        </div><!--end col-->
+                
+                                                        <div class="col-lg-6">
+                                                            <div class="mb-3">
+                                                                <label class="form-label">Tu Email <span class="text-danger">*</span></label>
+                                                                <div class="form-icon position-relative">
+                                                                    <i data-feather="mail" class="fea icon-sm icons"></i>
+                                                                    <input name="email" id="email" type="email" class="form-control ps-5" placeholder="Email">
+                                                                </div>
+                                                            </div>
+                                                        </div><!--end col-->
+
+                                                        <div class="col-12">
+                                                            <div class="mb-3">
+                                                                <label class="form-label">Motivo del Mensaje</label>
+                                                                <div class="form-icon position-relative">
+                                                                    <i data-feather="book" class="fea icon-sm icons"></i>
+                                                                    <input name="subject" id="subject" class="form-control ps-5" placeholder="Motivo">
+                                                                </div>
+                                                            </div>
+                                                        </div><!--end col-->
+
+                                                        <div class="col-12">
+                                                            <div class="mb-3">
+                                                                <label class="form-label">Mensaje <span class="text-danger">*</span></label>
+                                                                <div class="form-icon position-relative">
+                                                                    <i data-feather="message-circle" class="fea icon-sm icons clearfix"></i>
+                                                                    <textarea name="comments" id="comments" rows="2" class="form-control ps-5" placeholder="Escribir mensaje..."></textarea>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div><!--end row-->
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="d-grid">
+                                                                <button type="submit" id="submit" name="send" class="btn btn-primary">Envíar Mensaje</button>
+                                                            </div>
+                                                        </div><!--end col-->
+                                                    </div><!--end row-->
+                                                </form>
+                                            </div><!--end col-->
+                                        </div><!--end row-->
+                                    </div><!--end container-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Login Form End -->
                 </div>
             </div><!--end col-->
         </div><!--end row-->
@@ -73,14 +144,14 @@ url = "/placas-solares"
 <!-- Feature End -->
 
 <!-- Start CTA -->
-<section class="section bg-cta" style="background: url('{{'assets/images/principal/panel-solar-atardecer.png' | theme}}') center;">
+<section class="section bg-cta bg-half-170" style="background: url('{{'assets/images/principal/panel-solar-atardecer.png' | theme}}') center;">
     <div class="bg-overlay"></div>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <div class="title-heading">
                     <h2 class="heading title-dark text-white my-4">La <span class="text-primary fw-bold">energía</span> del futuro</h2>
-                    <p class="para-desc mx-auto" style="color: white; text-shadow: 0px 0px 2px black;">La energía solar es aquella que se obtiene a partir del sol en forma de luz, calor y rayos ultravioleta. Mediante la instalación de paneles solares o colectores, se puede utilizar para obtener energía térmica o para generar electricidad.</p>
+                    <p class="para-desc mx-auto" style="color: white; text-shadow: 0px 0px 2px black;">Las placas solares, también conocidas como placas fotovoltaicas, son unos elementos de largo recorrido y las hemos incorporado en la manera en la que producimos energía. De lo que no cabe duda es que su introducción supuso una revolución. A medida que la tecnología va avanzando, las placas solares son cada vez más eficientes y efectivas. Deseamos mostrarte cómo son y cómo funcionan, además de todas las ventajas asociadas a su uso.</p>
                 </div>
             </div><!--end col-->
         </div><!--end row-->
@@ -89,47 +160,36 @@ url = "/placas-solares"
 <!-- End CTA -->
 
 <!-- Description Start -->
-<section class="section">
+<section class="section bg-light">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
                 <div class="section-title mb-4 pb-2">
-                    <h2 class="title mb-4">Conoce todos sus <span class="text-primary">beneficios</span></h2>
+                    <h2 class="title mb-4">Ventajas de usar <span class="text-primary">placas solares</span></h2>
                     <p class="text-muted para-desc mx-auto mb-0">La <span class="text-primary">energía solar</span> cuenta con gran cantidad de beneficios entre los cuales podemos encontrar los siguientes:</p>
                 </div>
             </div><!--end col-->
         </div><!--end row-->
 
         <div class="row">
-            <div class="col-lg-4 col-md-6 mt-4 pt-2">
-                <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
-                    <div class="icon text-center rounded-circle me-3">
-                        <i class="uil uil-refresh" style="font-size: 30px;"></i>
-                    </div>
-                    <div class="flex-1">
-                        <h4 class="title mb-0">Energía totalmente renovable</h4>
-                    </div>
-                </div>
-            </div><!--end col-->
-            
-            <div class="col-lg-4 col-md-6 mt-4 pt-2">
-                <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
-                    <div class="icon text-center rounded-circle me-3">
-                        <i class="uil uil-heart-alt" style="font-size: 30px;"></i>
-                    </div>
-                    <div class="flex-1">
-                        <h4 class="title mb-0">Es 100% limipia</h4>
-                    </div>
-                </div>
-            </div><!--end col-->
-            
-            <div class="col-lg-4 col-md-6 mt-4 pt-2">
+            <div class="col-lg-6 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
                         <i class="uil uil-chart-down" style="font-size: 30px;"></i>
                     </div>
                     <div class="flex-1">
-                        <h4 class="title mb-0">Reduce la huella de carbono</h4>
+                        <h3 class="title mb-0 h4">Reducen el impacto ambiental al no depender la energía de centrales contaminantes.</h3>
+                    </div>
+                </div>
+            </div><!--end col-->
+            
+            <div class="col-lg-6 col-md-6 mt-4 pt-2">
+                <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
+                    <div class="icon text-center rounded-circle me-3">
+                        <i class="uil uil-euro-circle" style="font-size: 30px;"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="title mb-0 h4">Ahorro económico a largo plazo una vez que se ha amortizado la inversión.</h3>
                     </div>
                 </div>
             </div><!--end col-->
@@ -137,10 +197,10 @@ url = "/placas-solares"
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i class="uil uil-bell-slash" style="font-size: 30px;"></i>
+                        <i class="uil uil-sun" style="font-size: 30px;"></i>
                     </div>
                     <div class="flex-1">
-                        <h4 class="title mb-0">No genera ruidos</h4>
+                        <h3 class="title mb-0 h4">Energía limpia, inagotable y renovable.</h3>
                     </div>
                 </div>
             </div><!--end col-->
@@ -148,10 +208,10 @@ url = "/placas-solares"
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i class="uil uil-layers-alt" style="font-size: 30px;"></i>
+                        <i class="uil uil-bolt-alt" style="font-size: 30px;"></i>
                     </div>
                     <div class="flex-1">
-                        <h4 class="title mb-0">Es adaptable</h4>
+                        <h3 class="title mb-0 h4">Menor dependencia de la red eléctrica.</h3>
                     </div>
                 </div>
             </div><!--end col-->
@@ -159,10 +219,10 @@ url = "/placas-solares"
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="d-flex features feature-primary key-feature align-items-center p-3 rounded shadow">
                     <div class="icon text-center rounded-circle me-3">
-                        <i class="uil uil-wrench" style="font-size: 30px;"></i>
+                        <i class="uil uil-clock" style="font-size: 30px;"></i>
                     </div>
                     <div class="flex-1">
-                        <h4 class="title mb-0">Fácil de instalar</h4>
+                        <h3 class="title mb-0 h4">Se amortizan en un tiempo razonable.</h3>
                     </div>
                 </div>
             </div><!--end col-->
@@ -178,7 +238,250 @@ url = "/placas-solares"
             </div><!--end col-->
         </div><!--end row-->
     </div><!--end container-->
+
     <div class="container mt-100 mt-60">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <div class="section-title mb-4 pb-2">
+                    <h2 class="title mb-4">Placas Solares Para:</h2>
+                    <p class="text-muted para-desc mb-0 mx-auto">Desde <span class="text-primary fw-bold">Solmitec</span> repartimos energía a todos los lugares, aquí puedes informarte más sobre la aplicación de placas solares para cada uno de ellos.</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mt-4 pt-2">
+                <a href="/placas-solares/industria">
+                    <div class="card features feature-primary feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
+                        <div class="icons text-center mx-auto">
+                            <i class="uil uil-store-alt rounded h3 mb-0 mx-auto"></i>
+                        </div>
+
+                        <div class="card-body p-0 content">
+                            <h3 class="mt-4"><a href="/placas-solares/industria" class="title text-dark">Industria</a></h3>
+                            <p class="text-muted">Soluciones energéticas para empresas e industria.</p>
+                            <a href="/placas-solares/industria" class="read-more">Saber más <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+                    </div>
+                </a>
+            </div><!--end col-->
+            
+            <div class="col-lg-3 col-md-6 mt-4 pt-2">
+                <a href="/placas-solares/hosteleria">
+                    <div class="card features feature-primary feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
+                        <div class="icons text-center mx-auto">
+                            <i class="uil uil-utensils rounded h3 mb-0 mx-auto"></i>
+                        </div>
+
+                        <div class="card-body p-0 content">
+                            <h3 class="mt-4"><a href="/placas-solares/hosteleria" class="title text-dark">Hostelería</a></h3>
+                            <p class="text-muted">Soluciones energéticas para hoteles y restaurantes.</p>
+                            <a href="/placas-solares/hosteleria" class="read-more">Saber más <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+                    </div>
+                </a>
+            </div><!--end col-->
+            
+            <div class="col-lg-3 col-md-6 mt-4 pt-2">
+                <a href="/placas-solares/comunidades">
+                    <div class="card features feature-primary feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
+                        <div class="icons text-center mx-auto">
+                            <i class="uil uil-building rounded h3 mb-0 mx-auto"></i>
+                        </div>
+
+                        <div class="card-body p-0 content">
+                            <h3 class="mt-4"><a href="/placas-solares/comunidades" class="title text-dark">Comunidades</a></h3>
+                            <p class="text-muted">Soluciones energéticas para comunidades de vecinos.</p>
+                            <a href="/placas-solares/comunidades" class="read-more">Saber más <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+                    </div>
+                </a>
+            </div><!--end col-->
+            
+            <div class="col-lg-3 col-md-6 mt-4 pt-2">
+                <a href="#">
+                    <div class="card features feature-primary feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
+                        <div class="icons text-center mx-auto">
+                            <i class="uil uil-home rounded h3 mb-0 mx-auto"></i>
+                        </div>
+
+                        <div class="card-body p-0 content">
+                            <h3 class="mt-4"><a href="/placas-solares/casas" class="title text-dark">Casas</a></h3>
+                            <p class="text-muted">Soluciones energéticas para hogares independientes.</p>
+                            <a href="/placas-solares/casas" class="read-more">Saber más <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+                    </div>
+                </a>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+</section>
+
+<!-- Start CTA -->
+<section class="section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <div class="title-heading">
+                    <h2 class="my-4">El futuro de las <span class="text-primary">placas solares</span></h2>
+                    <p class="text-muted">Si echamos la vista atrás hace varias décadas, cuando las primeras placas solares aparecieron, el cambio ha sido notable. La eficiencia es un hecho, y la inversión necesaria para poner en marcha una instalación es ya más pequeña. En todo caso, la investigación continúa para generar placas solares, mucho más eficientes, con materiales ecológicos y que tengan una relación entre inversión y producción de energía mucho más.</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+
+    <div class="container mt-100 mt-60">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <img src="{{ 'assets/images/principal/ps-00.png' | theme}}" class="img-fluid" style="border-radius: 10px;" alt="ciudad">
+            </div><!--end col-->
+            <div class="col-lg-6 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                <div class="section-title ms-lg-3">
+                    <h2 class="h3 mb-4">¿Cuál es el precio de una placa solar?</h2>
+                    <p class="text-muted">El precio de una placa solar puede variar dependiendo de varios factores. Hay pequeñas placas solares que pueden limitar un sistema de almacenamiento de energía, pero si lo que deseamos es una instalación doméstica, para un negocio o industrial, la inversión es más elevada. Por ejemplo, para una vivienda de 100 m², el precio de la instalación suele estar próximo a los 5000 €.</p>
+                    <h3 class="h4 mb-4">¿Qué elementos influyen en el precio de instalar placas solares?</h3>
+                    <p class="text-muted">Son varios los elementos que están directamente relacionados con el precio de la instalación de placas solares.</p>
+                    <p class="text-muted">El principal es el de la potencia, cuanto más necesitemos, máscara será la instalación.  Las células son las encargadas de transformar la energía solar en electricidad, y están en dependencia directa con el tamaño del panel.</p>
+                    <p class="text-muted">De la misma manera, el material también tiene una relación directa con el precio total, siendo el mono cristalino el más caro y eficiente, mientras que el policristalino es más económico, pero menos efectivo. Pero también influyen factores como el tamaño, que se mide en largo por ancho y por alto, la estética que deseemos dar, la flexibilidad de los paneles o la propia marca elegida.</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+
+    <div class="container mt-100">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <div class="title-heading">
+                    <h2 class="my-4">¿Qué tipos de <span class="text-primary">placas solares</span> existen?</h2>
+                    <p class="text-muted">El mundo de las placas solares es bastante diverso según diferentes criterios, podemos clasificarlas de la siguiente manera:</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+
+    <div class="container mt-60">
+        <div class="row">
+            <div class="col-md-4 mt-4 pt-2">
+                <ul class="nav nav-pills nav-justified flex-column rounded shadow p-3 mb-0 sticky-bar" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link rounded active" id="proposal" data-bs-toggle="pill" href="#developing" role="tab" aria-controls="developing" aria-selected="false">
+                            <div class="text-start d-flex align-items-center justify-content-between py-1 px-2">
+                                <h3 class="h6 mb-0"><i class="uil uil-corner-down-right me-2 h4"></i> Según la célula fotovoltaica</h3>
+                                <i class="uil uil-angle-right-b"></i>
+                            </div>
+                        </a><!--end nav link-->
+                    </li><!--end nav item-->
+                    
+                    <li class="nav-item mt-2">
+                        <a class="nav-link rounded" id="contract" data-bs-toggle="pill" href="#data-analise" role="tab" aria-controls="data-analise" aria-selected="false">
+                            <div class="text-start d-flex align-items-center justify-content-between py-1 px-2">
+                                <h3 class="h6 mb-0"><i class="uil uil-corner-down-right me-2 h4"></i> Según el número de células</h3>
+                                <i class="uil uil-angle-right-b"></i>
+                            </div>
+                        </a><!--end nav link-->
+                    </li><!--end nav item-->
+                    
+                    <li class="nav-item mt-2">
+                        <a class="nav-link rounded" id="crm" data-bs-toggle="pill" href="#security" role="tab" aria-controls="security" aria-selected="false">
+                            <div class="text-start d-flex align-items-center justify-content-between py-1 px-2">
+                                <h3 class="h6 mb-0"><i class="uil uil-corner-down-right me-2 h4"></i> Según el voltaje</h3>
+                                <i class="uil uil-angle-right-b"></i>
+                            </div>
+                        </a><!--end nav link-->
+                    </li><!--end nav item-->
+                    
+                    <li class="nav-item mt-2">
+                        <a class="nav-link rounded" id="timetracking" data-bs-toggle="pill" href="#time-track" role="tab" aria-controls="time-track" aria-selected="false">
+                            <div class="text-start d-flex align-items-center justify-content-between py-1 px-2">
+                                <h3 class="h6 mb-0"><i class="uil uil-corner-down-right me-2 h4"></i> Según su potencia máxima</h3>
+                                <i class="uil uil-angle-right-b"></i>
+                            </div>
+                        </a><!--end nav link-->
+                    </li><!--end nav item-->
+                    
+                    <li class="nav-item mt-2">
+                        <a class="nav-link rounded" id="invoice" data-bs-toggle="pill" href="#invoices" role="tab" aria-controls="invoices" aria-selected="false">
+                            <div class="text-start d-flex align-items-center justify-content-between py-1 px-2">
+                                <h3 class="h6 mb-0"><i class="uil uil-corner-down-right me-2 h4"></i> Según la utilidad</h3>
+                                <i class="uil uil-angle-right-b"></i>
+                            </div>
+                        </a><!--end nav link-->
+                    </li><!--end nav item-->
+                </ul><!--end nav pills-->
+            </div><!--end col-->
+
+            <div class="col-md-8 col-12 mt-4 pt-2">
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active p-4 rounded shadow" id="developing" role="tabpanel" aria-labelledby="proposal">
+                        <h3 class="h4 mb-4">Según la célula fotovoltaica</h3>
+                        <ul class="mb-0">
+                            <li class="text-muted"><b>Monocristalinas:</b> formadas por un único cristal de silicio.</li>
+                            <li class="text-muted"><b>Policristalinas:</b> compuestas por varios cristales de silicio.</li>
+                            <li class="text-muted"><b>De película delgada:</b> fabricadas con materiales semiconductores en capas delgadas.</li>
+                        </ul>
+
+                        <div class="mt-4">
+                            <img src="{{ 'assets/images/principal/ps-placas.png' | theme}}" class="img-fluid" alt="">
+                        </div>
+                    </div><!--end teb pane-->
+                    
+                    <div class="tab-pane fade p-4 rounded shadow" id="data-analise" role="tabpanel" aria-labelledby="contract">
+                        <h3 class="h4 mb-4">Según el número de células fotovoltaicas</h3>
+                        <ul class="mb-0">
+                            <li class="text-muted"><b>Placas solares monocélulas:</b> compuestas por una única célula.</li>
+                            <li class="text-muted"><b>Placas solares multicélulas:</b> formadas por varias células conectadas entre sí.</li>
+                        </ul>
+
+                        <div class="mt-4">
+                            <img src="{{ 'assets/images/principal/ps-placas.png' | theme}}" class="img-fluid" alt="">
+                        </div>
+                    </div><!--end teb pane-->
+
+                    <div class="tab-pane fade p-4 rounded shadow" id="security" role="tabpanel" aria-labelledby="crm">
+                        <h3 class="h4 mb-4">Según el voltaje</h3>
+                        <ul class="mb-0">
+                            <li class="text-muted">Placas de bajo voltaje (hasta 12V).</li>
+                            <li class="text-muted">Placas de alto voltaje (más de 12V).</li>
+                        </ul>
+
+                        <div class="h4 mt-4">
+                            <img src="{{ 'assets/images/principal/ps-placas.png' | theme}}" class="img-fluid" alt="">
+                        </div>
+                    </div><!--end teb pane-->
+                    
+                    <div class="tab-pane fade p-4 rounded shadow" id="time-track" role="tabpanel" aria-labelledby="timetracking">
+                        <h3 class="h4 mb-4">Según su potencia máxima</h3>
+                        <ul class="mb-0">
+                            <li class="text-muted">Placas de baja potencia (hasta 100W).</li>
+                            <li class="text-muted">Placas de alta potencia (más de 100W).</li>
+                        </ul>
+
+                        <div class="mt-4">
+                            <img src="{{ 'assets/images/principal/ps-placas.png' | theme}}" class="img-fluid" alt="">
+                        </div>
+                    </div><!--end teb pane-->
+                    
+                    <div class="tab-pane fade p-4 rounded shadow" id="invoices" role="tabpanel" aria-labelledby="invoice">
+                        <h3 class="h4 mb-4">Según la utilidad</h3>
+                        <ul class="mb-0">
+                            <li class="text-muted">Placas solares para autoconsumo.</li>
+                            <li class="text-muted">Placas solares para instalaciones aisladas.</li>
+                            <li class="text-muted">Placas solares para sistemas conectados a la red.</li>
+                        </ul>
+
+                        <div class="mt-4">
+                            <img src="{{ 'assets/images/principal/ps-placas.png' | theme}}" class="img-fluid" alt="">
+                        </div>
+                    </div><!--end teb pane-->
+                </div><!--end tab content-->
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- End CTA -->
+
+<section class="section bg-light">
+    <div class="container mt-60">
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <div class="section-title mb-4 pb-2">
@@ -288,6 +591,90 @@ url = "/placas-solares"
                     </div><!--end teb pane-->
                     <!-- <img src="{{ 'assets/images/principal/mezcla.png' | theme}}" style="margin-top: -500px;" width="100%" height="auto" alt=""> -->
                 </div><!--end tab content-->
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+
+    <div class="container mt-100 mt-60">
+        <div class="row align-items-center">
+            <div class="col-lg-5 col-md-6 order-1 order-md-2">
+                <img src="{{ 'assets/images/principal/ps-casas-02.png' | theme}}" class="img-fluid rounded shadow-md" alt="">
+            </div><!--end col-->
+
+            <div class="col-lg-7 col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                <div class="section-title me-lg-5">
+                    <h2 class="title mb-4">Preguntas <span class="text-primary">Frecuentes</span></h2>
+                    <p class="text-muted">Aquí puedes ver algunas preguntas que nos suelen hacer los usuarios. Si no encuentras lo que buscas no dudes en ponerte en contacto con nosotros!</p>
+                </div>
+
+                <div class="accordion mt-4 pt-2" id="accordionExample">
+                    <div class="accordion-item rounded shadow">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button border-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                ¿Por qué debes contactar con Solmitec para instalar una placa solar?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse border-0 collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-muted">
+                                Solmitec somos una empresa líder en el sector de las energías renovables. Contamos con la experiencia suficiente, y que junto a un equipo de profesionales capacitados y una pasión por el medio ambiente, garantizamos la mejor calidad en la instalación y mantenimiento de tus placas solares. Al elegir Solmitec, eliges un futuro más verde.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item rounded shadow mt-2">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button border-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                ¿Es necesario un instalador de placas solares?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse border-0 collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-muted">
+                                Por supuesto, una instalación de placas solares no es algo que se pueda abordar de manera particular. Se trata de una instalación compleja, además, para la instalación es necesario tener la habilitación correspondiente del ministerio de Industria, Comercio y Turismo.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item rounded shadow mt-2">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button border-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                ¿Cómo funciona una placa solar para el autoconsumo?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse border-0 collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-muted">
+                                Las placas solares para autoconsumo captan la energía solar y la convierten en electricidad. Esta electricidad puede ser usada directamente en el hogar o almacenada en baterías para su uso posterior. Cuando hay un excedente, es posible enviarlo a la red eléctrica y obtener un beneficio económico. Ya son miles de familias, comercios e industrias que se están aprovechando de este sistema, obteniendo una energía limpia, más económica y que proviene de una fuente de energía inagotable como el sol.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item rounded shadow mt-2">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button border-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                ¿Qué son las placas solares?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-muted">
+                                Las placas solares son dispositivos que convierten la energía del sol en electricidad. Se componen de células fotovoltaicas que absorben la radiación solar y generan un flujo de electrones, produciendo corriente eléctrica. Esta energía se utiliza en cualquier tipo de ámbito, desde el doméstico hasta el industrial, evitando la producción de CO2 adicional.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item rounded shadow mt-2">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button border-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                ¿Es distinto un panel solar?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse border-0 collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-muted">
+                                Sí, aunque a menudo se usan indistintamente, hay una diferencia. Panel solar es un término más general que puede referirse tanto a los paneles fotovoltaicos, que generan electricidad, como a los paneles solares térmicos, que generan calor.
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div><!--end col-->
         </div><!--end row-->
     </div><!--end container-->

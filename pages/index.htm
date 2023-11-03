@@ -22,7 +22,7 @@ layout = "default"
                                     <h1 class="fw-bold display-4 text-white title-dark mb-3">Especialistas en<br><span class="text-primary">Autoconsumo</span> Industrial</h1>
                                     <p class="para-desc mx-auto text-white-50">En Solmitec, estamos orgullosos de ser una empresa líder en el desarrollo y ejecución de proyectos fotovoltaicos sostenibles y eficientes.</p>
                                     <div class="mt-4 pt-2">
-                                        <a href="#!" class="btn btn-primary">Saber Más</a>
+                                        <a href="/placas-solares" class="btn btn-primary">Saber Más</a>
                                     </div>
                                 </div>
                             </div><!--end col-->
@@ -55,7 +55,7 @@ layout = "default"
 <!-- Hero End -->
 
 <!-- FEATURES START -->
-<section class="section">
+<section class="section bg-light">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-10">
@@ -135,7 +135,23 @@ layout = "default"
                     <p class="text-muted"> En <span class="text-primary fw-bold">Solmitec</span>, nos enorgullecemos de ser una empresa líder en el desarrollo y ejecución de proyectos fotovoltaicos sostenibles y eficientes. Con un compromiso inquebrantable hacia la energía limpia y renovable, nos esforzamos por crear un impacto positivo en el medio ambiente y contribuir al desarrollo sostenible de comunidades y empresas.</p>
                     <p class="text-muted">Trabajamos con pasión y dedicación para impulsar la adopción masiva de la energía solar fotovoltaica como fuente primaria de electricidad. A través de la innovación constante, ofrecemos soluciones personalizadas y eficientes para nuestros clientes, brindándoles una transición sin problemas hacia un futuro energético más limpio y sostenible.</p>
                     <p class="text-muted">Con años de experiencia en el sector fotovoltaico, nuestro equipo altamente calificado de ingenieros, técnicos y profesionales en energía, ha llevado a cabo proyectos de distintas escalas y complejidades. Desde instalaciones solares residenciales hasta grandes parques solares comerciales e industriales, estamos capacitados para abordar cualquier desafío y entregar resultados excepcionales.</p>
-                    <a href="/contacto" class="btn btn-primary mt-3">Contáctanos!</a>
+                    <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#login-popup" class="btn btn-primary m-1">Contáctanos!</a>
+                    
+                    <!-- Login Form Start -->
+                    <div class="modal fade" id="login-popup" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog  modal-lg modal-dialog-centered">
+                            <div class="modal-content rounded shadow border-0">
+                                <div class="modal-body p-0">
+                                    <div class="container-fluid px-0">
+                                        <div class="row align-items-center g-0">    
+                                             <iframe width="600" height="600" src="https://clientes.solmitec.es/forms/wtl/f4a2df6003fb84c9a73c64af5bfc0d88" frameborder="0" sandbox="allow-top-navigation allow-forms allow-same-origin allow-popups" allowfullscreen style="border-radius: 10px;"></iframe>
+                                        </div><!--end row-->
+                                    </div><!--end container-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Login Form End -->
                 </div>
             </div><!--end col-->
         </div><!--end row-->
@@ -220,15 +236,16 @@ layout = "default"
                         </div>
 
                         <div class="card-body p-0 content">
-                            <h3 class="mt-4"><a href="javascript:void(0)" class="title text-dark">Casas</a></h3>
+                            <h3 class="mt-4"><a href="/placas-solares/casas" class="title text-dark">Casas</a></h3>
                             <p class="text-muted">Soluciones energéticas para hogares independientes.</p>
-                            <a href="javascript:void(0)" class="read-more">Saber más <i class="uil uil-angle-right-b align-middle"></i></a>
+                            <a href="/placas-solares/casas" class="read-more">Saber más <i class="uil uil-angle-right-b align-middle"></i></a>
                         </div>
                     </div>
                 </a>
             </div><!--end col-->
         </div><!--end row-->
     </div><!--end container-->
+    
     <div class="container mt-100 mt-60">
         <div class="row justify-content-center">
             <div class="col-12 text-center">
@@ -257,49 +274,127 @@ layout = "default"
             </div><!--end col-->
             
             <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                <a href="#">
+                <a href="/baterias/hosteleria">
                     <div class="card features feature-primary feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
                         <div class="icons text-center mx-auto">
                             <i class="uil uil-utensils rounded h3 mb-0 mx-auto"></i>
                         </div>
 
                         <div class="card-body p-0 content">
-                            <h3 class="mt-4"><a href="javascript:void(0)" class="title text-dark">Hostelería</a></h3>
+                            <h3 class="mt-4"><a href="/baterias/hosteleria" class="title text-dark">Hostelería</a></h3>
                             <p class="text-muted">Soluciones energéticas para hoteles y restaurantes.</p>
-                            <a href="javascript:void(0)" class="read-more">Saber más <i class="uil uil-angle-right-b align-middle"></i></a>
+                            <a href="/baterias/hosteleria" class="read-more">Saber más <i class="uil uil-angle-right-b align-middle"></i></a>
                         </div>
                     </div>
                 </a>
             </div><!--end col-->
             
             <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                <a href="#">
+                <a href="/baterias/comunidades">
                     <div class="card features feature-primary feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
                         <div class="icons text-center mx-auto">
                             <i class="uil uil-building rounded h3 mb-0 mx-auto"></i>
                         </div>
 
                         <div class="card-body p-0 content">
-                            <h3 class="mt-4"><a href="javascript:void(0)" class="title text-dark">Comunidades</a></h3>
+                            <h3 class="mt-4"><a href="/baterias/comunidades" class="title text-dark">Comunidades</a></h3>
                             <p class="text-muted">Soluciones energéticas para comunidades de vecinos.</p>
-                            <a href="javascript:void(0)" class="read-more">Saber más <i class="uil uil-angle-right-b align-middle"></i></a>
+                            <a href="/baterias/comunidades" class="read-more">Saber más <i class="uil uil-angle-right-b align-middle"></i></a>
                         </div>
                     </div>
                 </a>
             </div><!--end col-->
             
             <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                <a href="#">
+                <a href="/baterias/casas">
                     <div class="card features feature-primary feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
                         <div class="icons text-center mx-auto">
                             <i class="uil uil-home rounded h3 mb-0 mx-auto"></i>
                         </div>
 
                         <div class="card-body p-0 content">
-                            <h3 class="mt-4"><a href="javascript:void(0)" class="title text-dark">Casas</a></h3>
+                            <h3 class="mt-4"><a href="/baterias/casas" class="title text-dark">Casas</a></h3>
                             <p class="text-muted">Soluciones energéticas para hogares independientes.</p>
 
-                            <a href="javascript:void(0)" class="read-more">Saber más <i class="uil uil-angle-right-b align-middle"></i></a>
+                            <a href="/baterias/casas" class="read-more">Saber más <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+                    </div>
+                </a>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+
+    <div class="container mt-100 mt-60">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <div class="section-title mb-4 pb-2">
+                    <h2 class="title mb-4">Cargadores de Coche Para:</h2>
+                    <p class="text-muted para-desc mb-0 mx-auto">Desde <span class="text-primary fw-bold">Solmitec</span> repartimos energía a todos los lugares, aquí puedes informarte más sobre la aplicación de cargadores de coche para cada uno de ellos.</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mt-4 pt-2">
+                <a href="/cargadores-coche/industria">
+                    <div class="card features feature-primary feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
+                        <div class="icons text-center mx-auto">
+                            <i class="uil uil-store-alt rounded h3 mb-0 mx-auto"></i>
+                        </div>
+
+                        <div class="card-body p-0 content">
+                            <h3 class="mt-4"><a href="/cargadores-coche/industria" class="title text-dark">Industria</a></h3>
+                            <p class="text-muted">Soluciones energéticas para empresas e industria.</p>
+                            <a href="/cargadores-coche/industria" class="read-more">Saber más <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+                    </div>
+                </a>
+            </div><!--end col-->
+            
+            <div class="col-lg-3 col-md-6 mt-4 pt-2">
+                <a href="/cargadores-coche/hosteleria">
+                    <div class="card features feature-primary feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
+                        <div class="icons text-center mx-auto">
+                            <i class="uil uil-utensils rounded h3 mb-0 mx-auto"></i>
+                        </div>
+
+                        <div class="card-body p-0 content">
+                            <h3 class="mt-4"><a href="/cargadores-coche/hosteleria" class="title text-dark">Hostelería</a></h3>
+                            <p class="text-muted">Soluciones energéticas para hoteles y restaurantes.</p>
+                            <a href="/cargadores-coche/hosteleria" class="read-more">Saber más <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+                    </div>
+                </a>
+            </div><!--end col-->
+            
+            <div class="col-lg-3 col-md-6 mt-4 pt-2">
+                <a href="/cargadores-coche/comunidades">
+                    <div class="card features feature-primary feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
+                        <div class="icons text-center mx-auto">
+                            <i class="uil uil-building rounded h3 mb-0 mx-auto"></i>
+                        </div>
+
+                        <div class="card-body p-0 content">
+                            <h3 class="mt-4"><a href="/cargadores-coche/comunidades" class="title text-dark">Comunidades</a></h3>
+                            <p class="text-muted">Soluciones energéticas para comunidades de vecinos.</p>
+                            <a href="/cargadores-coche/comunidades" class="read-more">Saber más <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+                    </div>
+                </a>
+            </div><!--end col-->
+            
+            <div class="col-lg-3 col-md-6 mt-4 pt-2">
+                <a href="/cargadores-coche/casas">
+                    <div class="card features feature-primary feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
+                        <div class="icons text-center mx-auto">
+                            <i class="uil uil-home rounded h3 mb-0 mx-auto"></i>
+                        </div>
+
+                        <div class="card-body p-0 content">
+                            <h3 class="mt-4"><a href="/cargadores-coche/casas" class="title text-dark">Casas</a></h3>
+                            <p class="text-muted">Soluciones energéticas para hogares independientes.</p>
+
+                            <a href="/cargadores-coche/casas" class="read-more">Saber más <i class="uil uil-angle-right-b align-middle"></i></a>
                         </div>
                     </div>
                 </a>
@@ -310,7 +405,7 @@ layout = "default"
 <!-- End -->
 
 <!-- Start CTA -->
-<section class="section bg-cta" style="background: url('{{'assets/images/principal/paneles-cielo.png' | theme}}') center;">
+<section class="section bg-cta bg-half-170" style="background: url('{{'assets/images/principal/paneles-cielo.png' | theme}}') center;">
     <div class="bg-overlay"></div>
     <div class="container">
         <div class="row justify-content-center">
@@ -326,7 +421,7 @@ layout = "default"
 <!-- End CTA -->
 
 <!-- Start -->
-<section class="section">
+<!--<section class="section">
     <div class="container mt-100 mt-60">
         <div class="row justify-content-center">
             <div class="col-12 text-center">
@@ -334,8 +429,8 @@ layout = "default"
                     <h2 class="title mb-4">Ultimas Noticias</h2>
                     <p class="text-muted para-desc mx-auto mb-0">Aquí puedes ver todas las novedades sobre la energía solar, con <span class="text-primary fw-bold">Solmitec</span> mantente informado y no te pierdas nada!</p>
                 </div>
-            </div><!--end col-->
-        </div><!--end row-->
+            </div>
+        </div>
 
         <div class="row">
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
@@ -354,7 +449,7 @@ layout = "default"
                         <small class="date"><i class="uil uil-calendar-alt"></i> 8 Septiembre 2023</small>
                     </div>
                 </div>
-            </div><!--end col-->
+            </div>
             
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="card blog blog-primary rounded border-0 shadow">
@@ -372,7 +467,7 @@ layout = "default"
                         <small class="date"><i class="uil uil-calendar-alt"></i> 8 Septiembre 2023</small>
                     </div>
                 </div>
-            </div><!--end col-->
+            </div>
             
             <div class="col-lg-4 col-md-6 mt-4 pt-2">
                 <div class="card blog blog-primary rounded border-0 shadow">
@@ -390,8 +485,8 @@ layout = "default"
                         <small class="date"><i class="uil uil-calendar-alt"></i> 8 Septiembre 2023</small>
                     </div>
                 </div>
-            </div><!--end col-->
-        </div><!--end row-->
-    </div><!--end container-->
-</section><!--end section-->
+            </div>
+        </div>
+    </div>
+</section>-->
 <!-- End -->
