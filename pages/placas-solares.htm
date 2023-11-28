@@ -2,26 +2,31 @@ title = "Placas Solares"
 layout = "default"
 url = "/placas-solares"
 ==
-        
-<!-- Hero Start -->
-<section class="bg-home d-flex align-items-center" style="background: url('{{ 'assets/images/principal/paneles-cielo.png' | theme}}') center center; height: auto;" id="home">
-    <div class="bg-overlay bg-overlay-dark"></div>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-9 text-center mt-0 mt-md-5 pt-0 pt-md-5">
-                <div class="title-heading margin-top-100">
-                    <h1 class="display-4 fw-bold mb-3" style="color: white;">Placas Solares</h1>
-                    <p class="para-desc mx-auto" style="color: white;">La nueva energía limpia y renovable con la que además de poder ahorrar ayudarás<br> al medio ambiente, se sostenible y pasate a la energía solar!</p>
-                </div>
 
-                <div class="home-dashboard">
-                    <img src="{{ 'assets/images/principal/plaquitas.png' | theme}}" alt="" class="img-fluid mover">
+<!-- Hero Start -->
+<section class="bg-half-170 d-table w-100" style="background: url('{{'assets/images/principal/paneles-cielo.png' | theme}}') center center;">
+    <div class="bg-overlay"></div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                <iframe width="500" height="450" src="https://clientes.solmitec.es/multi_page_wtl/form/daa9909c16311327451c22a2b01caee7" frameborder="0" allowfullscreen  style="border-radius: 20px;"></iframe>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="title-heading">
+                    <h1 class="fw-bold text-white title-dark mt-2 mb-3">Placas Solares</h1>
+                    <p class="para-desc text-white">La nueva energía limpia y renovable con la que<br> además de poder ahorrar ayudarás al medio<br> ambiente, se más sostenible y pasate a la<br> energía solar con Solmitec!</p>
                 </div>
             </div><!--end col-->
+
+            
+            <div class="home-dashboard" style="margin-bottom: -200px;">
+                <img src="{{ 'assets/images/principal/plaquitas.png' | theme}}" alt="" class="img-fluid mover">
+            </div>
         </div><!--end row-->
-    </div><!--end container-->
+    </div> <!--end container-->
 </section><!--end section-->
-<!-- Hero End -->
+<!-- End Hero -->
 
 <!-- Feature Start -->
 <section class="section bg-light">
@@ -66,69 +71,14 @@ url = "/placas-solares"
                     <p class="text-muted" style="font-size: 18px;">En Solmitec tenemos muy presente que la responsabilidad hacia nuestro planeta y el medio ambiente es un objetivo prioritario, y por ello apostamos por la <span class="text-primary">energía solar</span>, la energía del futuro.</p>
                     <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#login-popup" class="btn btn-primary m-1">Contáctanos!</a>
                     
-                    <!-- Login Form Start -->
-                    <div class="modal fade" id="login-popup" tabindex="-1" aria-hidden="true">
+                     <!-- Login Form Start -->
+                     <div class="modal fade" id="login-popup" tabindex="-1" aria-hidden="true">
                         <div class="modal-dialog  modal-lg modal-dialog-centered">
                             <div class="modal-content rounded shadow border-0">
                                 <div class="modal-body p-0">
                                     <div class="container-fluid px-0">
-                                        <div class="row align-items-center g-0">
-                                            <div class="col-lg-6 col-md-5">
-                                                <img src="{{ 'assets/images/principal/form.png' | theme}}" class="img-fluid" alt="">
-                                            </div><!--end col-->
-
-                                            <div class="col-lg-6 col-md-7">
-                                                <form class="login-form p-4">
-                                                    <div class="row">
-                                                        <div class="col-lg-6">
-                                                            <div class="mb-3">
-                                                                <label class="form-label">Tu Nombre <span class="text-danger">*</span></label>
-                                                                <div class="form-icon position-relative">
-                                                                    <i data-feather="user" class="fea icon-sm icons"></i>
-                                                                    <input name="name" id="name" type="text" class="form-control ps-5" placeholder="Nombre">
-                                                                </div>
-                                                            </div>
-                                                        </div><!--end col-->
-                
-                                                        <div class="col-lg-6">
-                                                            <div class="mb-3">
-                                                                <label class="form-label">Tu Email <span class="text-danger">*</span></label>
-                                                                <div class="form-icon position-relative">
-                                                                    <i data-feather="mail" class="fea icon-sm icons"></i>
-                                                                    <input name="email" id="email" type="email" class="form-control ps-5" placeholder="Email">
-                                                                </div>
-                                                            </div>
-                                                        </div><!--end col-->
-
-                                                        <div class="col-12">
-                                                            <div class="mb-3">
-                                                                <label class="form-label">Motivo del Mensaje</label>
-                                                                <div class="form-icon position-relative">
-                                                                    <i data-feather="book" class="fea icon-sm icons"></i>
-                                                                    <input name="subject" id="subject" class="form-control ps-5" placeholder="Motivo">
-                                                                </div>
-                                                            </div>
-                                                        </div><!--end col-->
-
-                                                        <div class="col-12">
-                                                            <div class="mb-3">
-                                                                <label class="form-label">Mensaje <span class="text-danger">*</span></label>
-                                                                <div class="form-icon position-relative">
-                                                                    <i data-feather="message-circle" class="fea icon-sm icons clearfix"></i>
-                                                                    <textarea name="comments" id="comments" rows="2" class="form-control ps-5" placeholder="Escribir mensaje..."></textarea>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div><!--end row-->
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <div class="d-grid">
-                                                                <button type="submit" id="submit" name="send" class="btn btn-primary">Envíar Mensaje</button>
-                                                            </div>
-                                                        </div><!--end col-->
-                                                    </div><!--end row-->
-                                                </form>
-                                            </div><!--end col-->
+                                        <div class="row align-items-center g-0">    
+                                            <iframe width="500" height="450" src="https://clientes.solmitec.es/multi_page_wtl/form/daa9909c16311327451c22a2b01caee7" frameborder="0" allowfullscreen  style="border-radius: 20px;"></iframe>
                                         </div><!--end row-->
                                     </div><!--end container-->
                                 </div>
